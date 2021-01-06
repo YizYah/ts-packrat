@@ -24,6 +24,11 @@ npx ns-flip settings $CODE_DIR
 ```
 and follow the prompts.
 
+The `general` option is there if you want to change any of the interactive answers you gave in step 1.  The `static` option is what you need to choose now.  You can add one of two things:
+1. __typeCategory__: a grouping for types of interfaces that you'll want to expose.  That's useful if you will want your package users to have access to your defined types.
+2. __grouping__: a grouping for constants and/or functions that you want to expose.  
+For each type category or grouping, you can then add as many as you'd like.  If you give descriptions, it will all show up in your generated README file.
+
 You will be prompted to regenerate your code after you make changes.  You can also call that separately:
 ```
 npx ns-flip generate $CODE_DIR
@@ -32,13 +37,11 @@ npx ns-flip generate $CODE_DIR
 ## (3) Change the Custom Code
 Of course, you still have to create your code.  You should be able to do just about anything possible in Node using Typescript.  But, follow the [safe custom code practices of ns-flip](https://ns-flip.nostack.net/Safe-Custom-Code) to be able to reapply this template in the future without losing anything.
 
+For every grouping, you will see a generated file in `src/groupings`.  You can just define things there, but best is to create things in `src/custom` and then include them in the `helpers` section or require them directly.
+
 ## (4) Updating Your Template
 Take a minute and set up alerts about releases to this template.
-1. Go to the [GitHub repo](https://github.com/YizYah/ts-packrat Explore
-@YizYah
-Learn Git and GitHub without any code!
-
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request. ) and click the arrow by the `Watch` button on the upper right.
+1. Go to the [GitHub repo](https://github.com/YizYah/ts-packrat) and click the arrow by the `Watch` button on the upper right.
 
 <img src="images/2.jpg" alt="Watch Button" title="Watch" width="200">
 
