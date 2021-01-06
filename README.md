@@ -3,6 +3,8 @@
 
 Instant typescript npm packages.
 
+[Warning: still beta.]
+
 # Why
 So you don't have to worry about anything but writing your TS code.  This package uses [ns-flip](https://www.npmjs.com/package/ns-flip), so you can regenerate your code without losing your changes whenever `packrat` updates!
 
@@ -32,7 +34,11 @@ Of course, you still have to create your code.  You should be able to do just ab
 
 ## (4) Updating Your Template
 Take a minute and set up alerts about releases to this template.
-1. Go to the [GitHub repo](https://github.com/YizYah/packrat) and click the arrow by the `Watch` button on the upper right.
+1. Go to the [GitHub repo](https://github.com/YizYah/ts-packrat Explore
+@YizYah
+Learn Git and GitHub without any code!
+
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request. ) and click the arrow by the `Watch` button on the upper right.
 
 <img src="images/2.jpg" alt="Watch Button" title="Watch" width="200">
 
@@ -61,5 +67,4 @@ But, the best alternatives to `easy-oflif-cli` have not been created yet.  [Let 
 Post on the [ns-flip Community](https://spectrum.chat/ns-flip?tab=posts).
 
 # See Also
-* [ns-flip documentation](https://ns-flip.nostack.net/Home)
-* [oclif documentation](https://oclif.io/docs/commands)
+[ns-flip documentation](https://ns-flip.nostack.net/Home)
