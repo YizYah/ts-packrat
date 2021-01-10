@@ -19,6 +19,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"src/**/*.ts\"",
+    "lintfix": "eslint \"src/**/*.ts\" --fix",
     "test": "eslint \"src/**/*.ts\""
   },
   "repository": {

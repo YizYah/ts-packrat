@@ -1,3 +1,4 @@
+![logo](images/packrat-logo.jpg  =100)
 
 ![easy](images/packrat.jpg)
 
