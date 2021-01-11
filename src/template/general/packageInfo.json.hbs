@@ -20,13 +20,14 @@
   "main": "lib/index.ts",
   "repository": "{{general.owner}}/{{general.repositoryName}}",
   "scripts": {
-    "lint": "eslint . --ext .ts --config .eslintrc",
-    "lintfix": "eslint . --ext .ts --config .eslintrc --fix",
-    "postpack": "rm -f oclif.manifest.json",
-    "posttest": "eslint . --ext .ts --config .eslintrc",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
-    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md"
+    "build": "tcs",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lintfix": "eslint \"src/**/*.ts\" --fix",
+    "test": "eslint \"src/**/*.ts\"",
+    "posttest": "eslint \"src/**/*.ts\"",
+    "prepack": "rm -rf lib && tsc -b",
+    "test": "eslint \"src/**/*.ts\"",
+    "testreal": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts"
 }

@@ -1,5 +1,3 @@
-<img src="https://github.com/liangxiao3/redhat_note/raw/master/pic/basic_vmware.jpg" />
-
 ![easy](images/packrat.jpg)
 
 Instant typescript npm packages.
