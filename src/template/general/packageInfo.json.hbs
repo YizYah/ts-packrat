@@ -7,20 +7,18 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/bin",
-    "/lib",
-    "/npm-shrinkwrap.json",
-    "/oclif.manifest.json"
+    "lib/**/*"
   ],
   "homepage": "https://github.com/{{general.owner}}/{{general.repositoryName}}",
   "keywords": [
     "oclif"
   ],
   "license": "{{general.license}}",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "{{general.owner}}/{{general.repositoryName}}",
   "scripts": {
-    "build": "tcs",
+    "build": "tsc",
     "lint": "eslint \"src/**/*.ts\"",
     "lintfix": "eslint \"src/**/*.ts\" --fix",
     "test": "eslint \"src/**/*.ts\"",

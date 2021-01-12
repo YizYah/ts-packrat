@@ -138,5 +138,4 @@ setupSequence:
     - nyc@14.1.1
 
 ignore:
-  - lib
   - test/custom
