@@ -1,16 +1,18 @@
+Instant typescript npm packages.
 ![logo](images/ts-packrat.jpg)
 
-Instant typescript npm packages.
+[![Version](https://img.shields.io/npm/v/ts-packrat.svg)](https://npmjs.org/package/ts-packrat)
+[![Downloads/week](https://img.shields.io/npm/dw/ts-packrat.svg)](https://npmjs.org/package/ts-packrat)
+[![License](https://img.shields.io/npm/l/ts-packrat.svg)](https://github.com/YizYah/ts-packrat/blob/master/package.json)
 
 ![easy](images/packrat.jpg)
-
-
-[Warning: still beta .]
 
 # Why
 So you don't have to worry about anything but writing your TS code.  
 
 # What
+[Warning: still beta .]
+
 Your package is set up to work well for npm, with a reasonable configuration.  
 
 * ts is set up
