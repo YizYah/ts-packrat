@@ -18,9 +18,13 @@
 
 [//]: # ( ns__start_section api )
 
+{{customStart APIIntro}}
 # API
+{{customEnd APIIntro}}
 
+{{customStart constantsIntro}}
 ## General Constants and Commands
+{{customEnd constantsIntro}}
 
 {{#each nsInfo.static.grouping}}
 
@@ -39,9 +43,10 @@
 
 {{start types}}
 {{#if nsInfo.static.typeCategory}}
-
+    {{customStart typeIntro}}
     ## Types
     The following interfaces are exposed by {{general.repositoryName}}.
+    {{customEnd typeIntro}}
 
     {{#each nsInfo.static.typeCategory}}
 
