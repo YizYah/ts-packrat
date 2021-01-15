@@ -1,7 +1,9 @@
-![easy](images/packrat-logo.jpg)
-![easy](images/packrat.jpg)
+![logo](images/ts-packrat.jpg)
 
 Instant typescript npm packages.
+
+![easy](images/packrat.jpg)
+
 
 [Warning: still beta .]
 
