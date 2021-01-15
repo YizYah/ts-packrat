@@ -1,11 +1,21 @@
+![easy](images/packrat-logo.jpg)
 ![easy](images/packrat.jpg)
 
 Instant typescript npm packages.
 
-[Warning: still beta.]
+[Warning: still beta .]
 
 # Why
-So you don't have to worry about anything but writing your TS code.  This package uses [ns-flip](https://www.npmjs.com/package/ns-flip), so you can regenerate your code without losing your changes whenever `packrat` updates!
+So you don't have to worry about anything but writing your TS code.  
+
+# What
+Your package is set up to work well for npm, with a reasonable configuration.  
+
+* ts is set up
+* Testing set up with ava, with default very high level testing in place already 
+* linting with eslint
+
+And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses [ns-flip](https://www.npmjs.com/package/ns-flip). So, you can regenerate your code without losing your changes whenever `packrat` updates!
 
 # How
 Follow the steps below.  
@@ -59,6 +69,8 @@ npx ns-flip settings $CODE_DIR
 All of the settings and custom changes in the `$CODE_DIR` cli will be retained if you followed the [safe custom code practices of ns-flip](https://ns-flip.nostack.net/Safe-Custom-Code).
 
 # Help
+We've started a [wiki](https://github.com/YizYah/ts-packrat/wiki), intended for someone new to npm and node.
+
 Post on the [ns-flip Community](https://spectrum.chat/ns-flip?tab=posts).
 
 # See Also
