@@ -1,4 +1,5 @@
 Instant typescript npm packages.
+
 ![logo](images/ts-packrat.jpg)
 
 [![Version](https://img.shields.io/npm/v/ts-packrat.svg)](https://npmjs.org/package/ts-packrat)
@@ -16,7 +17,9 @@ So you don't have to worry about anything but writing your TS code.
 Your package is set up to work well for npm, with a reasonable configuration.  
 
 * ts is set up
-* Testing set up with ava, with default very high level testing in place already 
+* menu-driven selection and updates of what type interfaces, constants and functions you want to expose.
+* option for groupings of constants and/or functions
+* Testing set up with ava, with default very high level testing in place already
 * linting with eslint
 
 And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses [ns-flip](https://www.npmjs.com/package/ns-flip). So, you can regenerate your code without losing your changes whenever `packrat` updates!
