@@ -3,8 +3,9 @@ version: 1
 category: ts package
 dirs:
   custom: src/custom
+
 format:
-  customFileFilter: '*.{js,jsx,ts,tsx,md,yml}'
+  customFileFilter: '+(*.{js,jsx,ts,tsx,md,yml}|.gitignore)'
   defaultOpenComment: /*
   defaultCloseComment: '*/'
   openComment:
@@ -12,9 +13,11 @@ format:
 
       [//]: # (
     .yml: '#'
+    .gitignore: '#'
   closeComment:
     .md: )
     .yml: |+
+    .gitignore: |+
 
 general:
   packageName:

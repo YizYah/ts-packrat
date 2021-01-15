@@ -1,7 +1,19 @@
-describe('general test', async () => {
-{{customStart general}}
-// replace with whatever you'd like.  To start over with the default, remove everything including the
-// comment lines before and after.
-{{customEnd general}}
-})
+{{start imports}}
+import test from 'ava';
+{{custom customImports}}
 
+const output = require('../src/index')
+{{end imports}}
+
+{{customStart general}}
+test('general', t => {
+  // replace with whatever you'd like.  To start over with the default, remove everything including the
+{{#if nsInfo.general.multi}}
+    {{#each nsInfo.static.grouping}}
+  t.not(typeof output.{{slug}}, "undefined")
+    {{/each}}
+{{else}}
+  t.not(typeof output, "undefined")
+{{/if}}
+});
+{{customEnd general}}
