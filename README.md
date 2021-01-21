@@ -9,7 +9,8 @@ Instant typescript npm packages.
 ![easy](images/packrat.jpg)
 
 # Why
-So you don't have to worry about anything but writing your TS code.  
+So you don't have to worry about anything but writing your TS code.  fsdafsdfdsfds
+
 
 # What
 [Warning: still beta .]
