@@ -10,18 +10,19 @@ Instant typescript npm packages.
 
 [//]: # ( ns__custom_start toc )
 <!-- toc -->
-* [:cyclone: Why](#why)
-* [:mouse: What](#what)
-* [:cloud: How](#how)
-* [:large_blue_diamond: Help](#help)
+* [:clipboard: Why](#why)
+* [:bulb: What](#what)
+* [:wrench: How](#how)
+* [:heavy_exclamation_mark: Help](#help)
+* [:eyes: See Also](#see-also)
 <!-- tocstop -->
 
 [//]: # ( ns__custom_end toc )
 
-# :cyclone: Why
+# :clipboard: Why
 So you don't have to worry about anything but writing your TS code.  
 
-# :mouse: What
+# :bulb: What
 **[Warning: still beta.]**
 
 Your package is set up to work well for npm, with a reasonable configuration.  
@@ -34,7 +35,7 @@ Your package is set up to work well for npm, with a reasonable configuration.
 
 And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses **[ns-flip](https://www.npmjs.com/package/ns-flip)**. So, you can regenerate your code without losing your changes whenever `packrat` updates!
 
-# :cloud: How
+# :wrench: How
 Follow the steps below.  
 ## (1) Create a Starter CLI
 Define `$CODE_DIR` as the path to your desired directory for your package. Then run
@@ -85,10 +86,10 @@ npx ns-flip settings $CODE_DIR
 ```
 All of the settings and custom changes in the `$CODE_DIR` cli will be retained if you followed the [safe custom code practices of ns-flip](https://ns-flip.nostack.net/Safe-Custom-Code).
 
-# :large_blue_diamond: Help
+# :heavy_exclamation_mark: Help
 We've started a [wiki](https://github.com/YizYah/ts-packrat/wiki), intended for someone new to npm and node.
 
 Post on the [ns-flip Community](https://spectrum.chat/ns-flip?tab=posts).
 
-# See Also
+# :eyes: See Also
 [ns-flip documentation](https://ns-flip.nostack.net/Home)
