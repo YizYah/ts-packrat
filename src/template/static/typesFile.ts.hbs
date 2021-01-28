@@ -2,10 +2,10 @@
 
 {{#each specs.types}}
 // {{description}}
-export {{category}} {{capitalizeFirst name}} {{#if (eq category 'interface')}}{{curly true}}{{else}}={{/if}}
+export {{category}} {{capitalizeFirst name}} {{#if (or (eq category 'interface') (eq category 'enum'))}}{{curly true}}{{else}}={{/if}}
 /* ns__custom_start {{name}} */
 /* ns__custom_end {{name}} */
-{{#if (eq category 'interface')}}{{curly}}{{/if}}
+{{#if (or (eq category 'interface') (eq category 'enum'))}}{{curly}}{{/if}}
 
 {{/each}}
 
