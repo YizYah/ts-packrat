@@ -1,10 +1,11 @@
 {{custom helpers}}
 
-{{#each specs.types}}// {{description}}
-export interface {{capitalizeFirst name}} {
+{{#each specs.types}}
+// {{description}}
+export {{category}} {{capitalizeFirst name}} {{#if (eq category 'interface')}}{{curly true}}{{else}}={{/if}}
 /* ns__custom_start {{name}} */
 /* ns__custom_end {{name}} */
-}
+{{#if (eq category 'interface')}}{{curly}}{{/if}}
 
 {{/each}}
 

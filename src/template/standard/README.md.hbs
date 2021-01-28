@@ -43,24 +43,24 @@
 
 {{start types}}
 {{#if nsInfo.static.typeCategory}}
-    {{customStart typeIntro}}
-    ## Types
-    The following interfaces are exposed by {{general.repositoryName}}.
-    {{customEnd typeIntro}}
+{{customStart typeIntro}}
+## Types
+The following interfaces are exposed by {{general.repositoryName}}.
+{{customEnd typeIntro}}
 
-    {{#each nsInfo.static.typeCategory}}
+{{#each nsInfo.static.typeCategory}}
 
-        [//]: # ( ns__start_section types-{{slug}} )
+[//]: # ( ns__start_section types-{{slug}} )
 
-        ### {{capitalizeFirst slug}}
-        {{description}}
-        {{#each specs.types}}
-            * {{name}}: {{description}}
-        {{/each}}
+### {{capitalizeFirst slug}}
+{{description}}
+{{#each specs.types}}
+* {{name}}: {{description}}
+{{/each}}
 
-        [//]: # ( ns__end_section types-{{slug}} )
+[//]: # ( ns__end_section types-{{slug}} )
 
-    {{/each}}
+{{/each}}
 
 {{/if}}
 

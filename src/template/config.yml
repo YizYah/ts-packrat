@@ -54,7 +54,7 @@ general:
   multi:
     type: boolean
     required: false
-    description: does __answers.packageName__ export a single constant directly, or multiple constants that are named?
+    description: true if multiple constants are named.  false means that __answers.packageName__ exports a single constant directly
     default: true
 
 static:
@@ -80,6 +80,15 @@ static:
           description:
             type: string
             required: true
+          category:
+            type: string
+            required: false
+            default: interface
+            choices:
+              - const
+              - enum
+              - interface
+              - type
   grouping:
     description: an object of functions or constants in the api
     files:
