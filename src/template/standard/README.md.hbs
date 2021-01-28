@@ -31,7 +31,7 @@
 [//]: # ( ns__start_section constants-{{slug}} )
 
 ### {{capitalizeFirst slug}}
-{{description}}
+{{specs.description}}
   {{#each specs.constants}}
 * {{name}}: {{description}}
   {{/each}}
@@ -45,7 +45,7 @@
 {{#if nsInfo.static.typeCategory}}
 {{customStart typeIntro}}
 ## Types
-The following interfaces are exposed by {{general.repositoryName}}.
+The following types and interfaces are exposed by {{general.repositoryName}}.
 {{customEnd typeIntro}}
 
 {{#each nsInfo.static.typeCategory}}
@@ -53,7 +53,7 @@ The following interfaces are exposed by {{general.repositoryName}}.
 [//]: # ( ns__start_section types-{{slug}} )
 
 ### {{capitalizeFirst slug}}
-{{description}}
+{{specs.description}}
 {{#each specs.types}}
 * {{name}}: {{description}}
 {{/each}}
