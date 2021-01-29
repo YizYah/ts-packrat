@@ -33,7 +33,7 @@ Your package is set up to work well for npm, with a reasonable configuration.
 * testing set up with ava, with default very high level testing in place already
 * linting with eslint
 
-And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses **[ns-flip](https://www.npmjs.com/package/ns-flip)**. So, you can regenerate your code without losing your changes whenever `packrat` updates!
+And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses **[geenee](https://www.npmjs.com/package/ts-packrat)**. So, you can regenerate your code without losing your changes whenever `packrat` updates!
 
 # :wrench: How
 Follow the steps below.  
