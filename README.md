@@ -5,6 +5,7 @@ Instant typescript npm packages.
 [![Version](https://img.shields.io/npm/v/ts-packrat.svg)](https://npmjs.org/package/ts-packrat)
 [![Downloads/week](https://img.shields.io/npm/dw/ts-packrat.svg)](https://npmjs.org/package/ts-packrat)
 [![License](https://img.shields.io/npm/l/ts-packrat.svg)](https://github.com/YizYah/ts-packrat/blob/master/package.json)
+[![Geenee](https://img.shields.io/badge/maintained%20by-geenee-brightgreen)](https://npmjs.org/package/geenee)
 
 ![easy](images/packrat.jpg)
 
