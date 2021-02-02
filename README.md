@@ -34,7 +34,7 @@ Your package is set up to work well for npm, with a reasonable configuration.
 * testing set up with ava, with default very high level testing in place already
 * linting with eslint
 
-And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses **[ns-flip](https://www.npmjs.com/package/ns-flip)**. So, you can regenerate your code without losing your changes whenever `packrat` updates!
+And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses **[geenee](https://www.npmjs.com/package/geenee)**. So, you can regenerate your code without losing your changes whenever `packrat` updates!
 
 # :wrench: How
 Follow the steps below.  
@@ -48,7 +48,7 @@ and answer the interactive questions.
 ## (2) Update the Commands
 Call 
 ```
-npx ns-flip settings $CODE_DIR
+npx geenee settings $CODE_DIR
 ```
 and follow the prompts.
 
@@ -59,11 +59,11 @@ For each type of category or grouping, you can then add as many as you'd like.  
 
 You will be prompted to regenerate your code after you make changes.  You can also call that separately:
 ```
-npx ns-flip generate $CODE_DIR
+npx geenee generate $CODE_DIR
 ```
 
 ## (3) Change the Custom Code
-Of course, you still have to create your code.  You should be able to do just about anything possible in Node using Typescript.  But, follow the [safe custom code practices of ns-flip](https://ns-flip.nostack.net/Safe-Custom-Code) to be able to reapply this template in the future without losing anything.
+Of course, you still have to create your code.  You should be able to do just about anything possible in Node using Typescript.  But, follow the [safe custom code practices of geenee](https://geenee.nostack.net/Safe-Custom-Code) to be able to reapply this template in the future without losing anything.
 
 For every grouping, you will see a generated file in `src/groupings`.  You can just define things there, but best is to create things in `src/custom` and then include them in the `helpers` section or require them directly.
 
@@ -79,18 +79,18 @@ Take a minute and set up alerts about releases to this template.
 
 Before you update your template, check your code for safety by calling:
     ``` 
-    npx ns-flip check $CODE_DIR
+    npx geenee check $CODE_DIR
     ```
 To reapply the template with a newly released version, just the first command again.  Make sure to use the same path for the legacy `$CODE_DIR`.
 ```
-npx ns-flip settings $CODE_DIR
+npx geenee settings $CODE_DIR
 ```
-All of the settings and custom changes in the `$CODE_DIR` cli will be retained if you followed the [safe custom code practices of ns-flip](https://ns-flip.nostack.net/Safe-Custom-Code).
+All of the settings and custom changes in the `$CODE_DIR` cli will be retained if you followed the [safe custom code practices of geenee](https://geenee.nostack.net/Safe-Custom-Code).
 
 # :heavy_exclamation_mark: Help
 We've started a [wiki](https://github.com/YizYah/ts-packrat/wiki), intended for someone new to npm and node.
 
-Post on the [ns-flip Community](https://spectrum.chat/ns-flip?tab=posts).
+Post on [geenee discussions](https://github.com/YizYah/geenee/discussions/).
 
 # :eyes: See Also
-[ns-flip documentation](https://ns-flip.nostack.net/Home)
+[geenee documentation](https://geenee.nostack.net/)
