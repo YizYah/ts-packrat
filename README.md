@@ -21,7 +21,7 @@ Instant typescript npm packages.
 [//]: # ( ns__custom_end toc )
 
 # :clipboard: Why
-So you don't have to worry about anything but writing your TS code.  
+When you create a npm package, you shouldn't have to worry about anything but writing your TS code.
 
 # :bulb: What
 Your package is set up to work well for npm, with a reasonable configuration.
