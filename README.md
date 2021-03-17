@@ -11,19 +11,19 @@ Instant typescript npm packages.
 
 [//]: # ( ns__custom_start toc )
 <!-- toc -->
-* [:clipboard: Why](#why)
-* [:bulb: What](#what)
-* [:wrench: How](#how)
-* [:heavy_exclamation_mark: Help](#help)
-* [:eyes: See Also](#see-also)
+* [:clipboard: Why](#clipboard-why)
+* [:bulb: What](#bulb-what)
+* [:wrench: How](#wrench-how)
+* [:heavy_exclamation_mark: Help](#heavy_exclamation_mark-help)
+* [:eyes: See Also](#eyes-see-also)
 <!-- tocstop -->
 
 [//]: # ( ns__custom_end toc )
 
-# :clipboard: Why
+# <a name="clipboard-why"></a>:clipboard: Why
 When you create a npm package, you shouldn't have to worry about anything but writing your TS code.
 
-# :bulb: What
+# <a name="bulb-what"></a>:bulb: What
 Your package is set up to work well for npm, with a reasonable configuration.
 
 * ts is set up
@@ -35,7 +35,7 @@ Your package is set up to work well for npm, with a reasonable configuration.
 
 And, we can handle the upgrades for all the packages that you don't add yourself.  This package uses **[geenee](https://www.npmjs.com/package/geenee)**. So, you can regenerate your code without losing your changes whenever `packrat` updates!
 
-# :wrench: How
+# <a name="wrench-how"></a>:wrench: How
 Follow the steps below.  
 ## (1) Create a Starter CLI
 Define `$CODE_DIR` as the path to your desired directory for your package. Then run
@@ -100,9 +100,9 @@ One bad option is to start making changes that will be removed if you try to upd
 Then, consider releasing it on NPM and letting us know!  Because the whole idea behind the geenee project is that templates are not just *updatable*, but also *exchangeable*!  You could even call it something like `ts-packrat-circle`!  The more that people make available, the more options for other users of ts-packrat.
 
 
-# :heavy_exclamation_mark: Help
+# <a name="heavy_exclamation_mark-help"></a>:heavy_exclamation_mark: Help
 We've started a [wiki](https://github.com/YizYah/ts-packrat/wiki), intended for someone new to npm and node.
 
 Post on [geenee discussions](https://github.com/YizYah/geenee/discussions/).
-# :eyes: See Also
+# <a name="eyes-see-also"></a>:eyes: See Also
 [geenee documentation](https://geenee.nostack.net/)
