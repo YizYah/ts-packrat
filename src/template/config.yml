@@ -128,14 +128,6 @@ setupSequence:
       arguments:
         - init
         - $codeDir
-    - title: create package.json
-      file: npm
-      arguments:
-        - init
-        - '-y'
-      options:
-        cwd: $codeDir
-
   mainInstallation:
     - '@types/node@14.14.19'
     - tslib@2.0.3
