@@ -7,7 +7,7 @@ Instant typescript npm packages.
 [![License](https://img.shields.io/npm/l/ts-packrat.svg)](https://github.com/YizYah/ts-packrat/blob/master/package.json)
 [![Geenee](https://img.shields.io/badge/maintained%20by-geenee-brightgreen)](https://npmjs.org/package/geenee)
 
-![easy](images/packrat.jpg)
+![easy](images/packrat-new.png)
 
 [//]: # ( ns__custom_start toc )
 <!-- toc -->
