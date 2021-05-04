@@ -1,0 +1,3 @@
+put whatever files or directories you'd like into test/custom.  Anything with the name *.test.ts will be included in your tests.
+
+This file is only here so that test/custom will be included in the github repo, because normally github ignores empty directories.
