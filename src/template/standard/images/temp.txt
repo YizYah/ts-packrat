@@ -1,0 +1,1 @@
+this file just exists so that the `images` director will be included in git.  (git does not include empty directories.)
