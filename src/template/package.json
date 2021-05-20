@@ -1,4 +1,6 @@
 {
+  "name": "ts-packrat",
+  "description": "a geenee template launcher for creating a ts package",
   "dependencies": {
     "git-user-name": "^2.0.0"
   }
